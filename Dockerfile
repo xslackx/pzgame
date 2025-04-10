@@ -1,4 +1,9 @@
 FROM ubuntu:24.04
+
+ENV PZTORRENT=https://archive.org/download/gog_project_zomboid_41_78_16_60901_linux/gog_project_zomboid_41_78_16_60901_linux_archive.torrent
+
+COPY get.py /opt/get.py
+
 RUN apt update && \
 apt upgrade -y && \
 apt install -y python3 \
@@ -19,11 +24,9 @@ twolame \
 vorbis-tools \
 lame \
 faad \
-mencoder
-
-ENV PZTORRENT=https://archive.org/download/gog_project_zomboid_41_78_16_60901_linux/gog_project_zomboid_41_78_16_60901_linux_archive.torrent
-
-COPY get.py /opt/get.py
+mencoder \
+transmission-cli
 
 RUN cd /opt/ && \
-python3 get.py
+python3 get.py && \
+transmission-cli --download-dir /opt/pzfiles/ gog_project_zomboid.torrent

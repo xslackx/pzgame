@@ -1,9 +1,7 @@
-import urllib
-import urllib.request
-import os
-url=os.getenv("PZTORRENT")
-req = urllib.request.urlopen(url)
+from urllib.request import urlopen
+from os import getenv
+
 with open("gog_project_zomboid.torrent", "wb") as pz:
-    pz.write(req.read())
+    pz.write(urlopen(getenv("PZTORRENT")).read())
     pz.close()
 

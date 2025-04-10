@@ -11,7 +11,7 @@ Project Zomboid is an open-ended zombie-infested sandbox. It asks one simple que
 
 In the towns of Muldraugh and West Point, survivors must loot houses, build defences and do their utmost to delay their inevitable death day by day. No help is coming – their continued survival relies on their own cunning, luck and ability to evade a relentless horde.
 
-![alt text](https://archive.org/download/gog_project_zomboid_41_78_16_60901_linux/screenshot-0_Project_Zomboid.webp)
+![screenshot-0](./imgs/screenshot-0_Project_Zomboid.webp)
 
 # Already available features:
 
@@ -32,7 +32,7 @@ In the towns of Muldraugh and West Point, survivors must loot houses, build defe
 - Full, open and powerful Lua modding support.
 - Xbox Controller Gamepad support on Windows. [Others pads can be set up manually. Gamepad support not currently available on Mac] 
 
-![alt text](https://archive.org/download/gog_project_zomboid_41_78_16_60901_linux/screenshot-1_Project_Zomboid.webp)
+![screenshot-1](./imgs/screenshot-1_Project_Zomboid.webp)
 
 # Planned Features:
 
@@ -42,4 +42,4 @@ In the towns of Muldraugh and West Point, survivors must loot houses, build defe
 - Full wilderness survival systems, animals and hunting for food.
 - More items, crafting recipes, weapons and gameplay systems. 
 
-![alt text](https://archive.org/download/gog_project_zomboid_41_78_16_60901_linux/screenshot-2_Project_Zomboid.webp)
+![screenshot-2](./imgs/screenshot-2_Project_Zomboid.webp)
